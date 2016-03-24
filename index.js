@@ -12,7 +12,8 @@ module.exports = function (options, callback) {
     key: options.key,
     q: options.term,
     type: 'video',
-    channelId: options.channelId
+    channelId: options.channelId,
+    maxResults: options.maxResults
   };
 
   axios.get(ROOT_URL, { params: params })
