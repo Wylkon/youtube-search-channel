@@ -1,6 +1,6 @@
 {
   "name": "youtube-search-channel",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Search youtube channels",
   "main": "index.js",
   "scripts": {
