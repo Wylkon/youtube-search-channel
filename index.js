@@ -13,7 +13,9 @@ module.exports = function (options, callback) {
     q: options.term,
     type: 'video',
     channelId: options.channelId,
-    maxResults: options.maxResults
+    maxResults: options.maxResults,
+    nextPageToken: options.nextPageToken,
+    prevPageToken: options.prevPageToken
   };
 
   axios.get(ROOT_URL, { params: params })
